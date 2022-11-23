@@ -1,38 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Zap Zup Recreação</title>
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/stayle.css">
+    <link rel="stylesheet" href="./assets/css/animacao.css">
+</head>
+<body>
     <head>
-        <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Zap Zup Recreação</title>
-        <link rel="stylesheet" href="./assets/css/normalize.css" />
-        <link rel="stylesheet" href="./assets/css/reset.css">
-        <link rel="stylesheet" href="./assets/css/stayle.css">
-    </head>
-    <body>
-        <head>
-            <header class="cabecalho">
-                <img alt="Zap Zup" class="logo" src="./assets/img/logo-semfundo.png"/>
-                <nav class="menu">
-                    <ul class="menu__lista">
-                        <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
-                        <li class="menu__item"><a class="menu__link" href="#">Quem Somos</a></li>
-                        <li class="menu__item"><a class="menu__link" href="#">Galeria</a></li>
-                        <li class="menu__item"><a class="menu__link" href="#">Contato</a></li>
-                    </ul>
-                </nav>
-            </header>
-            <main class="container">
-                <section class="banner">
-                    <img class="banner__imagem" src="./assets/img/banner/06.jpeg"/>
+        <header class="cabecalho">
+            <img alt="Zap Zup" class="logo" src="./assets/img/logo-semfundo.png"/>
+            <nav class="menu">
+                <ul class="menu__lista">
+                    <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Quem Somos</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Galeria</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="container">
+            <section class="banner">
+                <div class="banner__grid">
+                    <div class="animacao">
+                        <div class="slider">
+                            <div class="slides">
+                                <input type="radio" name="radio-btn" id="radio1">
+                                <input type="radio" name="radio-btn" id="radio2">
+                                <input type="radio" name="radio-btn" id="radio3">
+                                <input type="radio" name="radio-btn" id="radio4">
+                                <div class="slide first">
+                                    <img src="./assets/img/banner/01.png" alt="Momento na recreção">
+                                </div>
+                                <div class="slide">
+                                    <img src="./assets/img/banner/02.png" alt="Momento na recreção">
+                                </div>
+                                <div class="slide">
+                                    <img src="./assets/img/banner/03.png" alt="Momento na recreção">
+                                </div>
+                                <div class="slide">
+                                    <img src="./assets/img/banner/04.png" alt="Momento na recreção">
+                                </div>
+                            </div>
+                    
+                            <div class="navigation-bar">
+                                <label class="bar" for="radio1"></label>
+                                <label class="bar" for="radio2"></label>
+                                <label class="bar" for="radio3"></label>
+                                <label class="bar" for="radio4"></label>
+                            </div>
+                        </div>
+                    </div>
                     <h1 class="banner__titulo">
                         <p>Recreação Infantil, Teen e Adulto</p>
                         <p>Brincadeiras / Baladinha / Som / DJ / Iluminação</p>   
                     </h1>
-                </section>    
-            </main>
-        </head>
-    </body>    
+                </div>
+            </section>    
+        </main>
+    </head>
+</body>    
 </html>

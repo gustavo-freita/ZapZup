@@ -3,14 +3,14 @@ body{
     margin: 0;
     padding: 0;
     height: 100vh;
-    width: 100vw;
+    width: 100vw; 
+    background: linear-gradient(72deg, rgba(68, 124, 226, 0.85) 10%, rgba(22, 248, 194, 0.85) 99%);
 }
 
 .cabecalho{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    position: fixed;
     width: 100%;
     margin-left: 0;
     background: rgba(196, 196, 196, 0.11);
@@ -55,12 +55,20 @@ body{
 
 /*início do banner*/
 .banner {
-    position: relative;
-}
-.banner__imagem {
-    width: 100%;
+    display: grid;
+    grid-template-areas: banner;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
 }
 
+.banner__grid {
+    grid-area: banner;
+}
+.animacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .banner__titulo {
     font-family: pacifico, cursive;
     color: #fdfdfd;
