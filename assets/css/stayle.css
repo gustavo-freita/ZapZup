@@ -60,27 +60,16 @@ body{
 .banner__grid {
     grid-area: banner;
 }
+
+.banner__apresentacao {
+    display: grid;
+    grid-template-columns: 50% 38%;
+}
+
 .animacao {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.banner__apresentacao {
-    display: grid;
-    grid-template-columns: 44.10% 43%;
-}
-.banner__titulo {
-    font-family: pacifico, cursive;
-    color: #fdfdfd;
-    font-size: 2em;
-    position: relative;
-    left: 50%;
-    text-shadow: 0 4px 4px rgba(0, 0, 0, .75);
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    text-align: center;
 }
 
 /*início das fotos de navegação*/
@@ -154,8 +143,21 @@ input {
 #radio4:checked ~ .first {
     margin-left: -75%;
 }
-
 /*fim da animação das fotos*/
+
+/*início da escrita e botão do home*/
+.banner__titulo {
+    font-family: pacifico, cursive;
+    color: #fdfdfd;
+    font-size: 2em;
+    position: relative;
+    left: 50%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, .75);
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
 
 .botao {
     left: 30%;
@@ -260,4 +262,11 @@ input {
 	background: #ff1f71;
 	box-shadow: 0 0 5px #ff1f71, 0 0 15px #ff1f71, 0 0 30px #ff1f71,
 		0 0 60px #ff1f71;
+}
+/*fim da escrita e botão do home*/
+
+/*início de quem somos*/
+
+.quem__somos {
+    background: #f00;
 }
