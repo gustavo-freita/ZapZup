@@ -270,3 +270,42 @@ input {
 .quem__somos {
     background: #f00;
 }
+
+.wave {
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 144px;
+}
+
+.Wave .shape-fill {
+    fill: red;
+}
+
+.wave__segunda {
+    
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave__segunda svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 175px;
+}
+
+.wave__segunda .shape-fill {
+    fill: #FFFFFF;
+}
