@@ -4,7 +4,7 @@ body{
     padding: 0;
     height: 100vh;
     width: 100vw; 
-    background: grey;
+    background-image: linear-gradient(45deg, #06d64a, #329c5c, #2e6665, #033469);
 }
 
 .cabecalho{
@@ -176,6 +176,7 @@ input {
 	justify-content: center;
 	align-items: center;
 }
+
 .container .btn a {
 	position: absolute;
 	top: 0;
@@ -268,7 +269,7 @@ input {
 /*início de quem somos*/
 
 .quem__somos {
-    background: #f00;
+    
 }
 
 .wave {
@@ -283,7 +284,8 @@ input {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 144px;
+    height: 123px;
+    transform: rotateY(180deg);
 }
 
 .Wave .shape-fill {
@@ -292,7 +294,7 @@ input {
 
 .wave__segunda {
     
-    bottom: 0;
+    top: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -303,22 +305,26 @@ input {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 175px;
+    height: 72px;
 }
 
 .wave__segunda .shape-fill {
-    fill: #FFFFFF;
+    fill: #ddd;
 }
 
 /*galeria de imagem*/
 
-.containe {
+.image__container:hover img:not(:hover) {
+	opacity: 0.3;
+}
+
+.galeria__imagem {
     position: relative;
     min-height: 100vh;
     background: #ddd;
 }
 
-.containe h3 {
+.titulo__principal {
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
@@ -328,7 +334,7 @@ input {
     text-transform: capitalize;
 }
 
-.containe .image__container {
+.galeria__imagem .image__container {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
@@ -336,27 +342,27 @@ input {
     padding: 10px;
 }
 
-.containe .image__container .image {
+.galeria__imagem .image__container .image {
     height: 250px;
     width: 350px;
-    border: 10px solid #fff;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+    border: 5px solid #184E7D;
+    box-shadow: 5px 5px 20px -5px #01962B;
     overflow: hidden;
     cursor: pointer;
 }
 
-.containe .image__container .image img {
+.galeria__imagem .image__container .image img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     transition: .2s linear;
 }
 
-.containe .image__container .image:hover img {
+.galeria__imagem .image__container .image:hover img {
     transform: scale(1.1);
 }
 
-.containe .popup__image {
+.galeria__imagem .popup__image {
     position: fixed;
     top: 0; left:0;
     background: rgba(0, 0, 0, .9);
@@ -366,7 +372,7 @@ input {
     display: none;
 }
 
-.containe .popup__image span {
+.galeria__imagem .popup__image span {
     position: absolute;
     top: 0; right: 10px;
     font-size: 60px;
@@ -376,7 +382,7 @@ input {
     z-index: 100;
 }
 
-.containe .popup__image img {
+.galeria__imagem .popup__image img {
     position: absolute;
     top: 50%; left: 50%;
     transform: translate(-50%, -50%);
@@ -387,7 +393,7 @@ input {
 }
 
 @media (max-width:768px) {
-    .containe .popup__image img {
+    .galeria__imagem .popup__image img {
         width: 95%;
     }
 }
