@@ -312,13 +312,23 @@ input {
 
 /*galeria de imagem*/
 
-.galeria {
+.containe {
     position: relative;
     min-height: 100vh;
     background: #ddd;
 }
 
-.galeria .imagem__galeria {
+.containe h3 {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    padding: 15px;
+    color:#333;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.containe .image__container {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
@@ -326,7 +336,7 @@ input {
     padding: 10px;
 }
 
-.galeria .imagem__galeria .imagem {
+.containe .image__container .image {
     height: 250px;
     width: 350px;
     border: 10px solid #fff;
@@ -335,21 +345,20 @@ input {
     cursor: pointer;
 }
 
-.galeria .imagem__galeria .imagem img {
+.containe .image__container .image img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     transition: .2s linear;
 }
 
-.galeria .imagem__galeria .imagem:hover img {
+.containe .image__container .image:hover img {
     transform: scale(1.1);
 }
 
-.galeria .popup__imagem {
+.containe .popup__image {
     position: fixed;
-    top: 0;
-    left:0;
+    top: 0; left:0;
     background: rgba(0, 0, 0, .9);
     height: 100%;
     width: 100%;
@@ -357,10 +366,9 @@ input {
     display: none;
 }
 
-.galeria .popup__imagem span {
+.containe .popup__image span {
     position: absolute;
-    top: 0;
-    right: 10px;
+    top: 0; right: 10px;
     font-size: 60px;
     font-weight: bolder;
     color: #fff;
@@ -368,10 +376,9 @@ input {
     z-index: 100;
 }
 
-.galeria .popup__imagem img {
+.containe .popup__image img {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 50%; left: 50%;
     transform: translate(-50%, -50%);
     border: 5px solid #fff;
     border-radius: 5px;
@@ -380,7 +387,7 @@ input {
 }
 
 @media (max-width:768px) {
-    .galeria .popup__imagem img {
+    .containe .popup__image img {
         width: 95%;
     }
 }

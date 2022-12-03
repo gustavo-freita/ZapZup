@@ -94,22 +94,37 @@
                 </div>
             </section>
             <section class="galeria">
-                <h3>Galeria de fotos</h3>
-                <div class="imagem__galeria">
-                    <div class="imagem"><img src="" alt=""></div>
-                    <div class="imagem"><img src="" alt=""></div>
-                    <div class="imagem"><img src="" alt=""></div>
-                    <div class="imagem"><img src="" alt=""></div>
-                    <div class="imagem"><img src="" alt=""></div>
-                    <div class="imagem"><img src="" alt=""></div>
+                <div class="containe">
+                    <h3>Galeria de fotos</h3>
+                    <div class="image__container">
+                        <div class="image"><img src="./assets/img/galeria/1.PNG" alt=""></div>
+                        <div class="image"><img src="./assets/img/galeria/2.PNG" alt=""></div>
+                        <div class="image"><img src="./assets/img/galeria/3.PNG" alt=""></div>
+                        <div class="image"><img src="./assets/img/galeria/4.PNG" alt=""></div>
+                        <div class="image"><img src="./assets/img/galeria/5.PNG" alt=""></div>
+                        <div class="image"><img src="./assets/img/galeria/6.PNG" alt=""></div>
+                        <div class="image"><img src="./assets/img/galeria/7.PNG" alt=""></div>
+                        <div class="image"><img src="./assets/img/galeria/8.PNG" alt=""></div>
+                    </div>
+                    <div class="popup__image">
+                        <span>&times;</span>
+                        <img src="./assets/img/galeria/1.PNG" alt="">
+                    </div>
                 </div>
-                <div class="popup__imagem">
-                    <span>&times;</span>
-                    <img src="primeirafoto da galeria" alt="">
-                </div>
+                <script>
+                    document.querySelectorAll('.image__container img').forEach(image =>{
+                        image.onclick = () =>{
+                            document.querySelector('.popup__image').style.display = 'block';
+                            document.querySelector('.popup__image img').src = image.getAttribute('src');
+                        }
+                    });
+                    document.querySelector('.popup__image span').onclick = () =>{
+                        document.querySelector('.popup__image').style.display = 'none';
+                    }
+                </script>
             </section>
             <section class="contato">
-
+                
             </section>
             <footer class="rodape">
                 
