@@ -1,0 +1,28 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(45deg, #06d64a, #329c5c, #2e6665, #033469);
+}
+  
+form {
+    padding: 16px;
+    width: 320px;
+    margin: 0 auto;
+}
+
+.contato__label{
+    display: block;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+.contato__input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    border-radius: 320px;
+    padding: 16px;
+}
+

@@ -16,15 +16,15 @@
         <img alt="Zap Zup" class="logo" src="./assets/img/logo-semfundo.png"/>
         <nav class="menu">
             <ul class="menu__lista">
-                <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">Quem Somos</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">Galeria</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">Contato</a></li>
+                <li class="menu__item"><a class="menu__link" href="#home">Home</a></li>
+                <li class="menu__item"><a class="menu__link" href="#quemSomos">Quem Somos</a></li>
+                <li class="menu__item"><a class="menu__link" href="#galeria">Galeria</a></li>
+                <li class="menu__item"><a class="menu__link" href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="banner">
+        <section id="home" class="banner">
             <div class="banner__grid">
                 <div class="banner__apresentacao">
                     <div class="animacao"> 
@@ -67,7 +67,7 @@
                 </div>
             </div>
         </section>
-        <section class="quem__somos">
+        <section id="quemSomos" class="quem__somos">
             <div class="wave">
                 
             </div>
@@ -83,7 +83,7 @@
                 </svg>
             </div>
         </section>
-        <section class="galeria__fotos">
+        <section id="galeria" class="galeria__fotos">
             <div class="galeria__imagem">
                 <h3 class="titulo__principal">Galeria de fotos</h3>
                 <div class="image__container">
@@ -114,9 +114,18 @@
                 }
             </script>
         </section>
-        <section class="contato">
+        <section id="contato" class="contato"> 
             <h4 class="titulo__principal">Contato</h4>
-
+            <form>
+                <div class="teste__contato">
+                <div class="posicao__contato">
+                    <label for="nomesobrenome">Nome e sobrenome</label>
+                    <input type="text" id="nomesobrenome" class="input-padrao" required>
+                    
+                    
+                </div>
+            </div>
+			</form>
         </section>
         <footer class="rodape">
                 

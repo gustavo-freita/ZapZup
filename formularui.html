@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/formulario.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <form class="contato__form">
+        <fieldset>
+
+            <div class="grupo">
+                <div class="contato__div">
+                    <label class="contato__label">
+                        <input class="contato__input" type="text" id="nome" placeholder="Nome" nome="nome" required>
+                    </label>
+                    <label class="contato__label">
+                        <input class="contato__input" type="email" id="email" placeholder="E-mail" nome="email" required>
+                    </label>
+                    <label class="contato__label">
+                        <input class="contato__input" type="tel" id="telefone" placeholder="Telefone de contato" nome="telefone" required>
+                    </label>
+                </div>
+            </div>
+        </fieldset>
+
+        <div class="">
+            <label><strong>você prefero que entremos em contato</strong></label>
+            <label>
+                <input type="radio" name="contato" value="Whatsapp" checked>Whatsapp
+                <input type="radio" name="contato" value="ligacao">Ligação
+                <input type="radio" name="contato" value="email">E-mail
+            </label>
+        </div>
+
+        <div class="">
+            <label><strong>Contenos um pouco sobre o seu contato conosco</strong></label>
+            <textarea cols="70" rows="10" id="mensagem" nome="mensagem"></textarea>
+        </div>
+        
+        <div class="botao">
+            <button class="botao__estilo" type="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+</html>
