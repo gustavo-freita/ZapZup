@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Zap Zup Recreação</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
@@ -102,30 +102,11 @@
                     </div>
                 </div>
             </div>
-            <script>
-                document.querySelectorAll('.image__container img').forEach(image =>{
-                    image.onclick = () =>{
-                         document.querySelector('.popup__image').style.display = 'block';
-                         document.querySelector('.popup__image img').src = image.getAttribute('src');
-                    }
-                });
-                document.querySelector('.popup__image span').onclick = () =>{
-                    document.querySelector('.popup__image').style.display = 'none';
-                }
-            </script>
+            <script src="popupImagem.js"></script>
         </section>
         <section id="contato" class="contato"> 
             <h4 class="titulo__principal">Contato</h4>
-            <form>
-                <div class="teste__contato">
-                <div class="posicao__contato">
-                    <label for="nomesobrenome">Nome e sobrenome</label>
-                    <input type="text" id="nomesobrenome" class="input-padrao" required>
-                    
-                    
-                </div>
-            </div>
-			</form>
+            
         </section>
         <footer class="rodape">
                 

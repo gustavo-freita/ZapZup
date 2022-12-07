@@ -349,6 +349,7 @@ input {
     box-shadow: 5px 5px 20px -5px #01962B;
     overflow: hidden;
     cursor: pointer;
+    border-radius: 20px;
 }
 
 .galeria__imagem .image__container .image img {
@@ -400,75 +401,40 @@ input {
 /*fim da galeria de imagem*/
 
 /*começo contato*/
-.teste__contato {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.contato__form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 16px;
+    width: 320px;
+    margin: 0 auto;
 }
-.posicao__contato {
+
+.contato__label {
     display: block;
-    margin: 0 0 20px;
-    padding: 10px 25px;
-    width: 50%;
-}
-.margem {
-	width: 940px;
-  margin: 0 auto;
+    margin-bottom: 24px;
+    width: 100%;
 }
 
-form {
-	margin: 40px 0;
+.contato__input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    border-radius: 320px;
+    padding: 16px;
 }
 
-form label, form legend {
-	display:block;
-	font-size: 20px;
-	margin: 0 0 10px;
+.contato__escolha {
+    display: block;
+    font-size: 20px;
 }
 
-.input-padrao {
-	display: block;
-	margin: 0 0 20px;
-	padding: 10px 25px;
-	width: 50%;
-	box-shadow: 10px 10px 10px 0 #000000;
-}
-
-.chckbox {
-	margin: 20px 0;
-}
-
-.enviar {
-	width:40%;
-	padding: 15px 0;
-	background: #f48c06;
-	color: white;
-	font-weight: bold;
-	font-size: 18px;
-	border: none;
-	border-radius: 5px;
-	transition: 1s all;
-	cursor: pointer;
-}
-
-.enviar:hover {
-	background: #e85d04;
-	transform: scale(1.2);
-	box-shadow: 10px 10px 10px 0 #000000;
-}
-
-table {
-	margin: 20px 0 40px;
-}
-
-thead {
-	background: #555555;
-	color: white;
-	font-weight: bold;
-}
-
-td, th {
-	border: 1px solid #000000;
-	padding: 8px 15px;
+.escolha__posicao {
+    display: block;
+    align-items: center;
+    justify-items: center;  
+    margin: 0 0 10px;
 }
 /*fim do contato*/
