@@ -122,7 +122,8 @@ body{
     background: #777;
     transition: 0.4s;
 }
-input {
+
+.teste {
     display: none;
 }
 /*fim da barra de navegação das fotos*/
@@ -407,9 +408,19 @@ input {
     box-sizing: border-box;
     padding: 16px;
     width: 320px;
-    margin: 0 auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.contato__fundo {
+    padding: 3em;
+    max-width: 500px;
+    border: .5px solide #167bf7;
+    background: rgba(9, 51, 102, .4);
+    border-radius: .3125em;
+}
 .contato__label {
     display: block;
     margin-bottom: 24px;
@@ -438,3 +449,33 @@ input {
     margin: 0 0 10px;
 }
 /*fim do contato*/
+
+/*inicío rodape*/
+.rodape {
+	text-align: center;
+	padding: 40px 0;
+}
+
+.rodape p {
+	color: white;
+	font-size: 13px;
+	margin-top: 20px;
+}
+
+.logo__rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape__imagem {
+    height: 150px;
+    
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+/*inicío rodape*/
