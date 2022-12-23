@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Patrick Hand', cursive;
 }
 body{
     height: 100vh;
@@ -40,7 +41,6 @@ body{
     text-decoration: none;
     font-weight: bolder;
     font-size: 25px;
-    font-family: 'Courgette', cursive;
 }
 
 .menu__link:last-child {
@@ -54,25 +54,11 @@ body{
 
 /*início do banner*/
 .banner {
-    display: grid;
-    grid-template-areas: "banner";
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-}
-
-.banner__grid {
-    grid-area: banner;
-}
-
-.banner__apresentacao {
-    display: grid;
-    grid-template-columns: 50% 38%;
-}
+    display: flex;
+ }
 
 .animacao {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-left: 80px;
 }
 
 /*início das fotos de navegação*/
@@ -151,15 +137,14 @@ body{
 
 /*início da escrita e botão do home*/
 .banner__titulo {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
     font-family: pacifico, cursive;
     color: #fdfdfd;
     font-size: 2em;
-    position: relative;
-    left: 50%;
     text-shadow: 0 4px 4px rgba(0, 0, 0, .75);
-    top: 50%;
     transform: translate(-50%, -50%);
-    width: 100%;
     text-align: center;
 }
 
