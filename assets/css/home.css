@@ -1,0 +1,164 @@
+#banner {
+    display: flex;
+    height: 100vh;
+    
+ }
+
+ .teste__fundo {
+    background: linear-gradient(63.13deg, #c4d6e2 51.04%, #307194 51.05%);
+    background-size: cover;
+    height: 100vh;
+ }
+/*início fotos slides*/
+.slider {
+    width: 500px;
+    height: 480px;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 5px solid #000000;
+    margin-left: 60px;
+    margin-top: 130px;
+}
+
+.slides {
+    display: flex;
+    width: 400%;
+    height: 100%;
+}
+
+.slide {
+    width: 25%;
+    transition: 0.5s;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+/*fim fotos slides*/
+
+/*Navegação entre as fotos*/
+.navigation-bar {
+    margin: 6px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 20px;
+    left: 83%;
+    bottom: 60px;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar {
+    border: 2px solid #fff;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.bar:hover{
+    background: #777;
+    transition: 0.4s;
+}
+
+.slides__input {
+    display: none;
+}
+/*fim da navegação de fotos*/
+
+/*início da animação das fotos*/
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first {
+    margin-left: -75%;
+}
+/*fim da animação das fotos*/
+
+/*início da escrita*/
+.banner__titulo {
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-top: 20%;
+    color: #fdfdfd;
+    font-size: 2em;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, .75);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/*botão de orçamento*/
+
+.botao {
+    position: relative;
+}
+
+.container {
+    display: inline-flex;
+}
+
+.container .estatico {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.container .dinamico {
+    margin-left: 5px;
+    line-height: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.dinamico li {
+    color: #033557;
+    list-style: none;
+    font-size: 32px;
+    font-weight: 500;
+    left: 0;
+    position: relative;
+    top: 0;
+    animation: slide 6s steps(4) infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -200px;
+    }
+}
+
+.dinamico li span {
+    position: relative;
+}
+
+.dinamico li span::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    border-left: 2px solid #c4d6e2;
+    animation: typing 1.5s steps(10) infinite;
+    background: #307194;
+}
+
+@keyframes typing {
+    100% {
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}

@@ -4,67 +4,83 @@
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Zap Zup Recreação</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/stayle.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="./assets/css/quemsomos.css">
+    <link rel="stylesheet" href="./assets/css/galeria.css">
+    <link rel="stylesheet" href="./assets/css/contato.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
 </head>
 <body>
-    <head>
-    <header class="cabecalho">
-        <img alt="Zap Zup" class="logo" src="./assets/img/logo-semfundo.png"/>
-        <nav class="menu">
-            <ul class="menu__lista">
-                <li class="menu__item"><a class="menu__link" href="#home">Home</a></li>
-                <li class="menu__item"><a class="menu__link" href="#quemSomos">Quem Somos</a></li>
-                <li class="menu__item"><a class="menu__link" href="#galeria">Galeria</a></li>
-                <li class="menu__item"><a class="menu__link" href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="home" class="banner">
-                <div class="animacao"> 
-                    <div class="slider">
-                        <div class="slides">
-                            <input class="teste" type="radio" name="radio-btn" id="radio1">
-                            <input class="teste" type="radio" name="radio-btn" id="radio2">
-                            <input class="teste" type="radio" name="radio-btn" id="radio3">
-                            <input class="teste" type="radio" name="radio-btn" id="radio4">
-                            <div class="slide first">
-                                <img src="./assets/img/banner/01.png" alt="Momento na recreção">
-                            </div>
-                            <div class="slide">
-                                <img src="./assets/img/banner/02.png" alt="Momento na recreção">
-                            </div>
-                            <div class="slide">
-                                <img src="./assets/img/banner/03.png" alt="Momento na recreção">
-                            </div>
-                            <div class="slide">
-                                <img src="./assets/img/banner/04.png" alt="Momento na recreção">
-                            </div>
+
+    <div class="teste__fundo">
+        <div class="cabecalho">
+            <img alt="Zap Zup" class="logo" src="./assets/img/logo-semfundo.png"/>
+            <nav class="menu">
+                <ul class="menu__lista">
+                    <li class="menu__item"><a class="menu__link" href="#banner">Home</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#quemSomos">Quem Somos</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#galeria">Galeria</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+        <section id="banner">
+            <div class="animacao"> 
+                <div class="slider">
+                    <div class="slides">
+                        <input class="slides__input" type="radio" name="radio-btn" id="radio1">
+                        <input class="slides__input" type="radio" name="radio-btn" id="radio2">
+                        <input class="slides__input" type="radio" name="radio-btn" id="radio3">
+                        <input class="slides__input" type="radio" name="radio-btn" id="radio4">
+                        <div class="slide first">
+                            <img class="teste" src="./assets/img/banner/01.png" alt="Momento na recreção">
                         </div>
-                        <div class="navigation-bar">
-                            <label class="bar" for="radio1"></label>
-                            <label class="bar" for="radio2"></label>
-                            <label class="bar" for="radio3"></label>
-                            <label class="bar" for="radio4"></label>
+                        <div class="slide">
+                            <img class="teste" src="./assets/img/banner/02.png" alt="Momento na recreção">
+                        </div>
+                        <div class="slide">
+                            <img class="teste" src="./assets/img/banner/03.png" alt="Momento na recreção">
+                        </div>
+                        <div class="slide">
+                            <img class="teste" src="./assets/img/banner/04.png" alt="Momento na recreção">
+                        </div>
+                    </div>
+                    <div class="navigation-bar">
+                        <label class="bar" for="radio1"></label>
+                        <label class="bar" for="radio2"></label>
+                        <label class="bar" for="radio3"></label>
+                        <label class="bar" for="radio4"></label>
+                    </div>
+                </div> 
+            </div>
+            <div class="banner__titulo">
+                <h1>Recreação</h1>
+                <p>Infantil, Teen e Adulto</p>
+                <p>Nós fazemos a sua festa brincando</p>
+                <div class="container">
+                    <div class="botao">
+                        <div class="container">
+                            <div class="estatico">Trabalhamos com</div>
+                            <ul class="dinamico">
+                                <li><span>Brincadeiras</span></li>
+                                <li><span>Baladinhas</span></li>
+                                <li><span>Som com DJ</span></li>
+                                <li><span>Iluminação</span></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="banner__titulo">
-                    <h1>Recreação</h1>
-                    <p>Nós fazemos sua festa brincando</p>
-                    <div class="container">
-                        <div class="botao">
-                            <div class="btn"><a href="#contato">Orçamento</a></div>
-                        </div>
-                    </div>
-                </div>
+            </div>
         </section>
+    </div>
+
+    <main>
         <section id="quemSomos" class="quem__somos">
             <div class="wave">
-                
+
             </div>
             <h2 class="titulo__principal">Quem somos</h2>
             <div class="conteudo">
@@ -85,6 +101,7 @@
                           </li>
                         </ul>
                     </div>
+                </div>
                 <div class="teste03">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid sed eligendi voluptatem, repellat sequi ipsum odit voluptates aliquam repudiandae vitae numquam totam iure blanditiis, corrupti consectetur odio velit? Exercitationem, quos.</p>
                 </div> 
@@ -98,6 +115,7 @@
                 </div>
             </div>
         </section>
+
         <section id="galeria" class="galeria__fotos">
             <div class="galeria__imagem">
                 <h3 class="titulo__principal">Galeria de fotos</h3>
@@ -117,8 +135,8 @@
                     </div>
                 </div>
             </div>
-            <script src="popupImagem.js"></script>
         </section>
+
         <section id="contato" class="contato"> 
             <h4 class="titulo__principal">Contato</h4>
             <form class="contato__form" action="https://api.staticforms.xyz/submit" method="post">
@@ -160,6 +178,7 @@
                 </fieldset>
             </form>
         </section>
+
         <footer class="rodape">
             <div class="logo__rodape">
                 <img class="rodape__imagem" src="./assets/img/logo-semfundo.png">
@@ -167,6 +186,7 @@
                 <p class="copyright">&copy; Copyright ZapZup Recreção - 2022</p>
         </footer>
     </main>
-    </head>
+    <script src="./assets/js/popupImagem.js"></script>
+    <script src="./assets/js/scroll.js"></script>
 </body>    
 </html>

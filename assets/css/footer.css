@@ -1,0 +1,27 @@
+.rodape {
+	text-align: center;
+	padding: 40px 0;
+}
+
+.rodape p {
+	color: white;
+	font-size: 13px;
+	margin-top: 20px;
+}
+
+.logo__rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape__imagem {
+    height: 150px;
+    
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}

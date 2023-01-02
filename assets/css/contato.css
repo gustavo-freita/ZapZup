@@ -1,0 +1,46 @@
+.contato__form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 16px;
+    width: 320px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato__fundo {
+    padding: 3em;
+    max-width: 500px;
+    border: .5px solide #167bf7;
+    background: rgba(9, 51, 102, .4);
+    border-radius: .3125em;
+}
+.contato__label {
+    display: block;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+.contato__input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    border-radius: 320px;
+    padding: 16px;
+}
+
+.contato__escolha {
+    display: block;
+    font-size: 20px;
+}
+
+.escolha__posicao {
+    display: block;
+    align-items: center;
+    justify-items: center;  
+    margin: 0 0 10px;
+}
