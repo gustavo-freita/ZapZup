@@ -9,7 +9,16 @@
     transform: translate3d(0, 2rem, 0);
 }*/
 .quem__somos {
-    background: #EAEAEA;
+    background-image: linear-gradient(180deg, #bcdded, #d2e5f1, #e7edf4, #fbf5f8);
+}
+
+.quemsomos__titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #80C4FD;
+    font-size: 50px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, .75);
 }
 
 .conteudo {
@@ -17,7 +26,37 @@
     align-items: center;
 }
 
+.mascote {
+    margin-left: 5%;
+}
 
+.quemsomos__posicao {
+    margin-left: 10%;
+}
+
+.quemsomos__hover {
+    transition: 1s all;
+}
+
+.quemsomos__hover:hover {
+    transform: scale(1.1);
+	box-shadow: 5px 5px 5px 0 #000000;
+    border-radius: 15px;
+
+}
+.subtitulo {
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: #045BC0;
+}
+
+.descricao  {
+    margin-bottom: 30px;
+    font-size: 20px;
+    width: 500px;
+    color: #6F98B0;
+    opacity: 0,5;
+}
 
 .wave {
     top: 0;
@@ -33,10 +72,6 @@
     width: calc(100% + 1.3px);
     height: 123px;
     transform: rotateY(180deg);
-}
-
-.Wave .shape-fill {
-    fill: red;
 }
 
 .wave__segunda {
@@ -56,5 +91,6 @@
 }
 
 .wave__segunda .shape-fill {
-    fill: #ddd;
+    fill: #bcdded;
+    
 }
