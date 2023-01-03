@@ -1,7 +1,23 @@
-
-.quem__somos {
-    
+/*.scroll-in {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
 }
+
+.scroll {
+    opacity: 0;
+    transition: all 1s ease-in-out;
+    transform: translate3d(0, 2rem, 0);
+}*/
+.quem__somos {
+    background: #EAEAEA;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+}
+
+
 
 .wave {
     top: 0;

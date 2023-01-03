@@ -6,11 +6,6 @@
     scroll-behavior: smooth;
     font-family: 'Patrick Hand', cursive;
 }
-body {
-    
-    
-    background-image: linear-gradient(345deg, #307194, #88afc6, #c4d6e2, #ffffff);
-}
 
 .cabecalho{
     position: fixed;
@@ -28,7 +23,7 @@ body {
 }
 
  .logo {
-    width: 10%;
+    width: 8%;
     display: block;
     justify-content: center;
  }
