@@ -18,7 +18,7 @@
     justify-content: center;
     color: #80C4FD;
     font-size: 50px;
-    text-shadow: 0 4px 4px rgba(0, 0, 0, .75);
+    text-shadow: 0 4px 4px rgb(255, 199, 31);
 }
 
 .conteudo {
@@ -40,7 +40,7 @@
 
 .quemsomos__hover:hover {
     transform: scale(1.1);
-	box-shadow: 5px 5px 5px 0 #000000;
+	box-shadow: 5px 5px 5px 0 #FFC71F;
     border-radius: 15px;
 
 }
@@ -58,24 +58,7 @@
     opacity: 0,5;
 }
 
-.wave {
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.wave svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 123px;
-    transform: rotateY(180deg);
-}
-
 .wave__segunda {
-    
     top: 0;
     left: 0;
     width: 100%;
