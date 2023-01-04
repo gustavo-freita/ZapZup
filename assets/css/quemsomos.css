@@ -9,7 +9,7 @@
     transform: translate3d(0, 2rem, 0);
 }*/
 .quem__somos {
-    background-image: linear-gradient(180deg, #bcdded, #d2e5f1, #e7edf4, #fbf5f8);
+    background-color: #bcdded;
 }
 
 .quemsomos__titulo {
@@ -58,7 +58,7 @@
     opacity: 0,5;
 }
 
-.wave__segunda {
+.primeira__wave {
     top: 0;
     left: 0;
     width: 100%;
@@ -66,14 +66,14 @@
     line-height: 0;
 }
 
-.wave__segunda svg {
+.primeira__wave svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
     height: 72px;
 }
 
-.wave__segunda .shape-fill {
-    fill: #bcdded;
+.primeira__wave .shape-fill {
+    fill: #D5D5D5;
     
 }
