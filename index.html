@@ -137,8 +137,8 @@
 
         <section id="contato" class="contato"> 
             <h4 class="titulo__contato">Contato</h4>
-            <form class="contato__form" action="https://api.staticforms.xyz/submit" method="post">
-                <fieldset class="contato__fundo">
+            <form class="contato__formulario">
+                <div class="contato__fundo">
                     <div class="contato__informacao">
                         <div class="estilo__informacao">
                             <label class="contato__label">
@@ -152,28 +152,26 @@
                             </label>
                         </div>
                     </div> 
-                    <div class="">
-                        <label><strong>Como você prefero que entremos em contato</strong></label>
-                        <div class="contato__escolha">
-                            <label class="escolha__posicao">
-                                <input class="escolha__estilo" type="radio" name="contato" value="Whatsapp" checked>Whatsapp
-                            </label>
-                            <label class="escolha__posicao">
-                                <input class="escolha__estilo" type="radio" name="contato" value="ligacao">Ligação
-                            </label>
-                            <label class="escolha__posicao">
-                                <input class="escolha__estilo" type="radio" name="contato" value="email">E-mail
-                            </label>
-                        </div>
+                    <label><strong>Como você prefero que entremos em contato:</strong></label>
+                    <div class="contato__escolha">
+                        <label class="escolha__posicao">
+                            <input class="escolha__estilo" type="radio" name="contato" value="Whatsapp" checked>Whatsapp
+                        </label>
+                        <label class="escolha__posicao">
+                            <input class="escolha__estilo" type="radio" name="contato" value="ligacao">Ligação
+                        </label>
+                        <label class="escolha__posicao">
+                            <input class="escolha__estilo" type="radio" name="contato" value="email">E-mail
+                        </label>
                     </div>
                     <div class="contato__mensagem">
-                        <label class="contato__texto"><strong>Contenos um pouco sobre o seu contato conosco</strong></label>
-                        <textarea cols="50" rows="10" id="mensagem" nome="mensagem" placeholder="Digite sua mensagem"></textarea>
+                        <label class="contato__texto"><strong>Contenos um pouco sobre o seu contato conosco:</strong></label>
+                        <textarea class="mensagem__caixa" cols="50" rows="10" id="mensagem" nome="mensagem" placeholder= "Digite sua mensagem"></textarea>
                     </div>
                     <div class="botao">
                         <button class="botao__estilo" type="submit">Enviar</button>
                     </div>            
-                </fieldset>
+                </div>
             </form>
         </section>
 

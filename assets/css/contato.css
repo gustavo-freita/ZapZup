@@ -1,7 +1,6 @@
 .contato {
     background-color: #80C4FD;
-    min-height: 100vh;
-    position: relative;
+    
 }
 
 .titulo__contato {
@@ -13,10 +12,7 @@
     text-shadow: 0 4px 4px rgb(255, 199, 31);
 }
 
-.contato__form {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.contato__formulario {
     padding: 16px;
     width: 320px;
     margin: auto;
@@ -28,9 +24,9 @@
 .contato__fundo {
     padding: 3em;
     max-width: 500px;
-    border: .5px solide #167bf7;
-    background: rgba(9, 51, 102, .4);
     border-radius: .3125em;
+    background-color: #80C4FD;
+    box-shadow: 5px 5px 20px -5px #045BC0;
 }
 .contato__label {
     display: block;
@@ -46,6 +42,8 @@
     font-size: 16px;
     border-radius: 320px;
     padding: 16px;
+    background-color: #D5D5D5;
+    box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
 }
 
 .contato__escolha {
@@ -57,5 +55,17 @@
     display: block;
     align-items: center;
     justify-items: center;  
-    margin: 0 0 10px;
+    margin-bottom: 5px;
+}
+
+.escolha__estilo {
+    margin: 10px;
+}
+
+.mensagem__caixa {    
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #D5D5D5;
+    box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+    margin-top: 10px;
 }
