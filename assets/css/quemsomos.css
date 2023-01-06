@@ -9,16 +9,16 @@
     transform: translate3d(0, 2rem, 0);
 }*/
 .quem__somos {
-    background-color: #bcdded;
+    background-color: #12567D;
 }
 
 .quemsomos__titulo {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #80C4FD;
+    color: #F2E5C8;
     font-size: 50px;
-    text-shadow: 0 4px 4px rgb(255, 199, 31);
+    text-shadow: 0 4px 4px rgb(0, 0, 0);
 }
 
 .conteudo {
@@ -40,21 +40,21 @@
 
 .quemsomos__hover:hover {
     transform: scale(1.1);
-	box-shadow: 5px 5px 5px 0 #FFC71F;
+	box-shadow: 5px 5px 5px 0 #000;
     border-radius: 15px;
 
 }
 .subtitulo {
     font-size: 30px;
     margin-bottom: 5px;
-    color: #045BC0;
+    color: #B29D76;
 }
 
 .descricao  {
     margin-bottom: 30px;
     font-size: 20px;
     width: 500px;
-    color: #6F98B0;
+    color: #D5D5D5;
     opacity: 0,5;
 }
 
