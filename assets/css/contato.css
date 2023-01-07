@@ -69,3 +69,25 @@
     box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
     margin-top: 10px;
 }
+
+.custom-shape-divider-top-1673050697 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    background-color: #12567D;
+}
+
+.custom-shape-divider-top-1673050697 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 61px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1673050697 .shape-fill {
+    fill: #80C4FD;
+}

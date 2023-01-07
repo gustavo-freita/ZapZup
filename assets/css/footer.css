@@ -8,13 +8,12 @@
 
 .mascote__estilo {
 	height: 150px;
-	margin-right: 200px;
+	margin-left: 10%;
 }
 
-.logo__rodape {
+.rodape__conteudo {
     display: flex;
-    align-items: center;
-    justify-content: center;
+	justify-content: space-between;
 }
 
 .rodape__imagem {
@@ -31,6 +30,8 @@
 .wrapper {
 	display: inline-flex;
 	list-style: none;
+	margin-right: 10%;
+	margin-top: 5%;
   }
   
   .wrapper .icon {
@@ -39,9 +40,9 @@
 	border-radius: 50%;
 	padding: 15px;
 	margin: 10px;
-	width: 50px;
-	height: 50px;
-	font-size: 18px;
+	width: 60px;
+	height: 60px;
+	font-size: 30px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
