@@ -103,3 +103,10 @@
 	background: #E4405F;
 	color: #ffffff;
   }
+
+  .wrapper .whatsapp:hover,
+  .wrapper .whatsapp:hover .tooltip,
+  .wrapper .whatsapp:hover .tooltip::before {
+	background: #13e247;
+	color: #ffffff;
+  }

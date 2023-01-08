@@ -13,9 +13,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #80C4FD;
+    color: #045BC0;
     font-size: 50px;
-    text-shadow: 0 4px 4px rgb(255, 199, 31);
+    text-shadow: 0 4px 4px #000;
 }
 
 .galeria__imagem .image__container {

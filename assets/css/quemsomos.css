@@ -44,6 +44,12 @@
     border-radius: 15px;
 
 }
+
+.quemsomos__icone {
+    font-size: 30px;
+    color: #B29D76;
+}
+
 .subtitulo {
     font-size: 30px;
     margin-bottom: 5px;
