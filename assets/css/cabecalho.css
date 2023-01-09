@@ -13,12 +13,12 @@
     border-bottom: solid 1px rgba(255, 255, 255, 0.452);
 }
 
- .logo {
+.logo {
     width: 8%;
     display: block;
     justify-content: center;
  }
- .menu__lista {
+.menu__lista {
     display: flex;
 }
 

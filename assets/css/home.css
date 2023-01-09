@@ -163,3 +163,23 @@
         margin: 0 -35px 0 35px;
     }
 }
+
+.custom-shape-divider-bottom-1673304923 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    background: linear-gradient(63.13deg, #c4d6e2 64.04%, #307194 51.05%);
+}
+
+.custom-shape-divider-bottom-1673304923 svg {
+    position: relative;
+    display: block;
+    width: calc(124% + 1.3px);
+    height: 73px;
+}
+
+.custom-shape-divider-bottom-1673304923 .shape-fill {
+    fill: #12567D;
+}

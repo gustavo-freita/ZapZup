@@ -4,8 +4,6 @@
 	background-color: #12567D;
 }
 
-
-
 .mascote__estilo {
 	height: 150px;
 	margin-left: 10%;
@@ -19,12 +17,6 @@
 .rodape__imagem {
     height: 150px;
     
-}
-
-.copyright {
-	color: #FFFFFF;
-	font-size: 13px;
-	margin: 20px 0 0;
 }
 
 .wrapper {
@@ -64,6 +56,10 @@
 	opacity: 0;
 	pointer-events: none;
 	transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .link__contato {
+	color:#000;
   }
   
   .wrapper .tooltip::before {
@@ -110,3 +106,26 @@
 	background: #13e247;
 	color: #ffffff;
   }
+
+  .rodape__final {
+	display: flex;
+	align-items:center;
+	justify-content: space-around;
+  }
+
+  .copyright {
+	margin-top: 20px;
+	margin-left: 28%;
+	color: #FFFFFF;
+	font-size: 13px;
+}
+
+.meucontato {
+	margin-top: 20px;
+	font-size: 18px;
+	color: #000000;
+}
+
+.meucontato__icone {
+	color: #000;
+}
