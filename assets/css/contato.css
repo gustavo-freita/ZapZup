@@ -70,24 +70,23 @@
     margin-top: 10px;
 }
 
-.custom-shape-divider-top-1673050697 {
-    top: 0;
+.custom-shape-divider-bottom-1673478215 {
+    bottom: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
-    background-color: #12567D;
+    background-color: #80C4FD;
 }
 
-.custom-shape-divider-top-1673050697 svg {
+.custom-shape-divider-bottom-1673478215 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 61px;
-    transform: rotateY(180deg);
+    height: 76px;
 }
 
-.custom-shape-divider-top-1673050697 .shape-fill {
-    fill: #80C4FD;
+.custom-shape-divider-bottom-1673478215 .shape-fill {
+    fill: #12567D;
 }
