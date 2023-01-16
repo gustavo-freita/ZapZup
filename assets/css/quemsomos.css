@@ -1,13 +1,3 @@
-/*.scroll-in {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-}
-
-.scroll {
-    opacity: 0;
-    transition: all 1s ease-in-out;
-    transform: translate3d(0, 2rem, 0);
-}*/
 .quem__somos {
     background-color: #12567D;
 }
@@ -64,23 +54,22 @@
     opacity: 0,5;
 }
 
-.primeira__wave {
-    top: 0;
+.wave__01 {
+    bottom: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    background-color: #12567D;
+    background: linear-gradient(63.13deg, #c4d6e2 64.04%, #307194 51.05%);
 }
 
-.primeira__wave svg {
+.wave__01 svg {
     position: relative;
     display: block;
-    width: calc(100% + 1.3px);
-    height: 72px;
+    width: calc(124% + 1.3px);
+    height: 73px;
 }
 
-.primeira__wave .shape-fill {
-    fill: #D5D5D5;
-    
+.wave__01 .shape-fill {
+    fill: #12567D;
 }

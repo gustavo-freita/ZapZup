@@ -83,23 +83,23 @@
     }
 }
 
-.segunda__wave {
-    bottom: 0;
+.wave__02 {
+    top: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    transform: rotate(180deg);
-    background-color: #D5D5D5;
+    background-color: #12567D;
 }
 
-.segunda__wave svg {
+.wave__02 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 104px;
+    height: 72px;
 }
 
-.segunda__wave .shape-fill {
-    fill: #80C4FD;
+.wave__02 .shape-fill {
+    fill: #D5D5D5;
+    
 }

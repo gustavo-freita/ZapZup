@@ -1,6 +1,5 @@
 .contato {
     background-color: #80C4FD;
-    
 }
 
 .titulo__contato {
@@ -110,8 +109,29 @@
     color: #000;
 }
 
+.wave__03 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    background-color: #D5D5D5;
+}
 
-.custom-shape-divider-bottom-1673478215 {
+.wave__03 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 104px;
+}
+
+.wave__03 .shape-fill {
+    fill: #80C4FD;
+}
+
+
+.wave__04 {
     bottom: 0;
     left: 0;
     width: 100%;
@@ -121,13 +141,13 @@
     background-color: #80C4FD;
 }
 
-.custom-shape-divider-bottom-1673478215 svg {
+.wave__04 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
     height: 76px;
 }
 
-.custom-shape-divider-bottom-1673478215 .shape-fill {
+.wave__04 .shape-fill {
     fill: #12567D;
 }
