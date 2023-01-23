@@ -7,30 +7,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Zap Zup Recreação</title>
     <link rel="website icon" type="png" href="./assets/img/logo-branco.png">
+    <!-- Estilo da pagina -->
     <link rel="stylesheet" href="./assets/css/stayle.css">
+    <!-- Cabechalho -->
     <link rel="stylesheet" href="./assets/css/cabecalho.css">
+    <!-- Início -->
     <link rel="stylesheet" href="./assets/css/home.css">
+    <!-- Quem Somos -->
     <link rel="stylesheet" href="./assets/css/quemsomos.css">
+    <!-- Galeria de Imagens -->
     <link rel="stylesheet" href="./assets/css/galeria.css">
+    <!-- Contato -->
     <link rel="stylesheet" href="./assets/css/contato.css">
+    <!-- Footer -->
     <link rel="stylesheet" href="./assets/css/footer.css">
 </head>
 <body>
+    <!-- Cabeçalho da página -->
     <header>
         <div class="cabecalho">
-            <img alt="Zap Zup" class="logo" src="./assets/img/logo-branco.png"/>
-            <nav class="menu">
-                <ul class="menu__lista">
-                    <li class="menu__item"><a class="menu__link" href="#banner">Home</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#quemSomos">Quem Somos</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#galeria">Galeria</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#contato">Contato</a></li>
-                </ul>
+            <img alt="Zap Zup" class="logo" href="#inicio" src="./assets/img/logo-branco.png"/>
+            <nav class="barra__nav">
+                <a href="#" class="toggle__button">
+                    <span class="toggle"></span>
+                    <span class="toggle"></span>
+                    <span class="toggle"></span>
+                </a>
+                <div class="navbar__links">
+                    <ul class="menu__lista">
+                        <li class="menu__item"><a class="menu__link" href="#inicio">Início</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#quemSomos">Quem Somos</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#galeria">Galeria</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#contato">Contato</a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </header>
-    <main>
-         <section id="banner" class="fundo__banner">
+    <!-- Cabeçalho da página -->
+
+    <main> 
+        <!-- Página Inícial -->
+        <section id="inicio" class="fundo__banner">
             <div class="animacao"> 
                 <div class="slider">
                     <div class="slides">
@@ -73,7 +91,9 @@
                 </div>
             </div>         
         </section>
+        <!-- Página Inícial -->
 
+        <!-- Página Quem Somos -->
         <section id="quemSomos" class="quem__somos">
             <div class="wave__01">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -108,7 +128,9 @@
                 </div>
             </div>              
         </section>
+        <!-- Página Quem Somos -->
 
+        <!-- Página da Galeria de Fotos-->
         <section id="galeria" class="galeria__fotos">
             <div class="wave__02">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -134,7 +156,9 @@
                 </div>
             </div>
         </section>
+        <!-- Página da Galeria de Fotos-->
 
+        <!-- Página de Contato -->
         <section id="contato" class="contato"> 
             <div class="wave__03">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -180,14 +204,15 @@
                     </div>            
                 </div>
             </form>
+            <div class="wave__04">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                </svg>
+            </div>
         </section>
-
-        <div class="wave__04">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
-            </svg>
-        </div>
+        <!-- Página de Contato -->
         
+        <!-- Footer -->
         <footer class="rodape">
             <div class="rodape__conteudo">
                 <img class="mascote__estilo" src="./assets/img/mascote-semfundo.png" alt="mascote da empresa">
@@ -219,9 +244,11 @@
                 
             </div>
         </footer>
+        <!-- Footer -->
     </main>
     <script src="./assets/js/text.js"></script>
     <script src="./assets/js/popupImagem.js"></script>
     <script src="./assets/js/scroll.js"></script>
+    <script src="./assets/js/barra.js"></script>
 </body>    
 </html>

@@ -2,7 +2,7 @@
     position: fixed;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
     left: 0;
     top: 0;
@@ -17,7 +17,13 @@
     width: 8%;
     display: block;
     justify-content: center;
+    margin-left: 15%;
  }
+
+ .barra__nav {
+    margin-right: 15%;
+ }
+
 .menu__lista {
     display: flex;
 }
@@ -25,8 +31,6 @@
 .menu__item {
     list-style: none;
 }
-
-/*text-decoration: none;*/
 
 .menu__link {
     color: #000000;
@@ -50,4 +54,63 @@
 
 .menu__link:hover::after {
     width: 100%;
+}
+
+.toggle__button {
+   position: absolute;
+   top: .75rem;
+   right: 1rem;
+   display: none;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 30px;
+   height: 21px;
+}
+
+.toggle__button .toggle {
+    height: 3px;
+    width: 100%;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+@media (max-width: 425px) {
+    .logo {
+        margin-left: 30px;
+    }
+
+    .menu__link {
+        text-decoration: none;
+    }
+
+    .toggle__button {
+        display: flex;
+    }
+
+    .navbar__links {
+        display: none;
+        width: 100%;
+    }
+
+    .cabecalho {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar__links .menu__lista {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar__links .menu__item {
+        text-align: center;
+    }
+
+    .navbar__links .menu__item .menu__link {
+        padding: .5rem 1rem;
+    }
+
+    .navbar__links .active {
+        display: flex;
+    }
 }
