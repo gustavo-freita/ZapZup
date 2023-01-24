@@ -1,98 +1,98 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    margin: 0;
-    padding: 0;
+header {
+    background-color: #000;
 }
 
-.navbar {
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    color: white;
-}
-
-.brand-title {
-    font-size: 1.5rem;
-    margin: .5rem;
-}
-
-.navbar-links {
-    height: 100%;
-}
-
-.navbar-links ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-.navbar-links li {
+li {
     list-style: none;
 }
 
-.navbar-links li a {
-    display: block;
+a {
+    color: #fff;
     text-decoration: none;
-    color: white;
-    padding: 1rem;
 }
 
-.navbar-links li:hover {
-    background-color: #555;
-}
-
-.toggle-button {
-    position: absolute;
-    top: .75rem;
-    right: 1rem;
-    display: none;
-    flex-direction: column;
+.navbar {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
-    width: 30px;
-    height: 21px;
+    padding: 0 34px;
 }
 
-.toggle-button .bar {
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-link {
+    transition: 0.5s ease;
+}
+
+.nav-link:hover {
+    color: blue;
+}
+
+.hamburguer {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 28px;
     height: 3px;
-    width: 100%;
-    background-color: white;
-    border-radius: 10px;
+    border-radius: 2px;
+    margin: 5px auto;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
 }
 
-@media (max-width: 800px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
+@media (max-width:768px) {
+    .hamburguer {
+        display: block;
     }
 
-    .toggle-button {
-        display: flex;
-    }
-
-    .navbar-links {
+    .hamburguer.active .bar:nth-child(2) {
         display: none;
-        width: 100%;
     }
 
-    .navbar-links ul {
-        width: 100%;
-        flex-direction: column;
+    .hamburguer.active .bar:nth-child(1) {
+        transform: translate(8px) rotate(45deg);
     }
 
-    .navbar-links ul li {
+    .hamburguer.active .bar:nth-child(3) {
+        transform: translate(-8px) rotate(-45deg);
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        border-radius: 0 0 20px 20px;
+        background-color: #000;
         text-align: center;
+        flex-direction: column;
+        width: 100%;
+        transition: 0.3s;
     }
 
-    .navbar-links ul li a {
-        padding: .5rem 1rem;
+    .nav-item {
+        margin: 16px 0;
     }
 
-    .navbar-links.active {
-        display: flex;
+    .nav-menu.active {
+        left: 0;
     }
 }

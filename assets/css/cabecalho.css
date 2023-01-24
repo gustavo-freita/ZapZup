@@ -77,6 +77,7 @@
 @media (max-width: 425px) {
     .logo {
         margin-left: 30px;
+        width: auto;
     }
 
     .menu__link {
@@ -95,6 +96,7 @@
     .cabecalho {
         flex-direction: column;
         align-items: center;
+        width: auto;
     }
 
     .navbar__links .menu__lista {
@@ -114,3 +116,4 @@
         display: flex;
     }
 }
+
