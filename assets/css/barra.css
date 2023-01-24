@@ -65,21 +65,22 @@ a {
     }
 
     .hamburguer.active .bar:nth-child(2) {
-        display: none;
+        opacity: 0;
     }
 
     .hamburguer.active .bar:nth-child(1) {
-        transform: translate(8px) rotate(45deg);
+        transform: translateY(8px) rotate(45deg);
     }
 
     .hamburguer.active .bar:nth-child(3) {
-        transform: translate(-8px) rotate(-45deg);
+        transform: translateY(-8px) rotate(-45deg);
     }
 
     .nav-menu {
         position: fixed;
         left: -100%;
         top: 70px;
+        gap: 0;
         border-radius: 0 0 20px 20px;
         background-color: #000;
         text-align: center;
