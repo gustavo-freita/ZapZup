@@ -73,3 +73,28 @@
 .wave__01 .shape-fill {
     fill: #12567D;
 }
+
+@media (max-width:480px) {
+    .quem__somos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .wave__01 {
+        display: none;
+    }
+
+    .conteudo {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .mascote {
+        height: 25em;
+        width: 25em;
+    }
+
+    .quemsomos__titulo {
+        text-align: center;
+    }
+}
