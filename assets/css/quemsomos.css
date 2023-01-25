@@ -92,9 +92,18 @@
     .mascote {
         height: 25em;
         width: 25em;
+        margin-left: 27%;
     }
 
     .quemsomos__titulo {
         text-align: center;
+    }
+
+    .quemsomos__hover {
+        margin-left: 20px;
+    }
+
+    .descricao {
+        width: 400px;
     }
 }
