@@ -74,7 +74,7 @@
     fill: #12567D;
 }
 
-@media (max-width:480px) {
+@media (max-width:400px) {
     .quem__somos {
         display: flex;
         flex-wrap: wrap;
@@ -90,9 +90,11 @@
     }
 
     .mascote {
-        height: 25em;
-        width: 25em;
-        margin-left: 27%;
+        height: 20em;
+        width: 20em;
+        margin-left: 25%;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 
     .quemsomos__titulo {
@@ -104,6 +106,6 @@
     }
 
     .descricao {
-        width: 400px;
+        width: 327px;
     }
 }

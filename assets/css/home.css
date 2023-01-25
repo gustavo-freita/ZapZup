@@ -184,21 +184,25 @@
     }
 }
 
-@media (max-width:480px) {
+@media (max-width:400px) {
     .fundo__banner {
         display: flex;
         align-items: center;
         flex-direction: column;
         background: #c4d6e2;    
-        height: 750px;
+        height: 680px;
     }
 
     .slider {
         margin-left: 0;
         margin-top: 90px;
-        height: 25em;
-        width: 25em;
+        height: 20em;
+        width: 20em;
         box-shadow: 5px 5px 20px -5px #000;
+    }
+
+    .navigation-bar {
+        margin-right: -15%;
     }
 
     .banner__posicao {
