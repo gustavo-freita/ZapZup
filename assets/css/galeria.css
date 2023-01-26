@@ -103,3 +103,16 @@
     fill: #D5D5D5;
     
 }
+
+@media (max-width:400px) {
+    .galeria__imagem .popup__image {
+        width: 60%;
+    }
+
+    .galeria__imagem .popup__image span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 53%;
+    }
+}
