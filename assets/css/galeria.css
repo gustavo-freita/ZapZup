@@ -106,13 +106,11 @@
 
 @media (max-width:400px) {
     .galeria__imagem .popup__image {
-        width: 60%;
+        width: 50%;
     }
 
     .galeria__imagem .popup__image span {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 53%;
+        margin-top: 121%;
+        margin-right: 34%;
     }
 }
