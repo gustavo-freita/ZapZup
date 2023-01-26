@@ -105,12 +105,12 @@
 }
 
 @media (max-width:400px) {
-    .galeria__imagem .popup__image {
-        width: 24rem;
+    .galeria__imagem .popup__image img {
+        width: 50%;
+        margin-left: -19%;
     }
-
+    /*
     .galeria__imagem .popup__image span {
-        margin-top: 121%;
-        margin-right: 34%;
-    }
+        
+    }*/
 }
