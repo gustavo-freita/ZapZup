@@ -206,7 +206,8 @@
     }
 
     .banner__posicao {
-        padding-bottom: 500px;
+        padding-bottom: 28px;
+        height: 18rem;
     }
 
     .titulo {
@@ -214,15 +215,22 @@
     }
 
     .banner__conteudo {
-        font-size: 30px;
+        font-size: 27px;
         color: #fff;
+        margin-top: 84px;
     }
 
     .container .text {
+        font-size: 27px;
         color: #fff;
     }
 
+    .banner__animacao {
+        margin-top: 10%;
+    }
+
     .container .text.first-text {
+        font-size: 27px;
         color: #fff;
     }
 
