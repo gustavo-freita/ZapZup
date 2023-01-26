@@ -151,3 +151,17 @@
 .wave__04 .shape-fill {
     fill: #12567D;
 }
+
+@media (max-width:400px) {
+    .contato__formulario {
+        width: 390px;
+    }
+
+    .contato__fundo {
+        width: 173%;
+    }
+
+    .mensagem__caixa {
+        width: 100%;
+    }
+}
