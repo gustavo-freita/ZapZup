@@ -159,6 +159,8 @@
 
     .contato__fundo {
         width: 330%;
+        margin-left: -13px;
+        margin-right: 17px;
     }
 
     .mensagem__caixa {

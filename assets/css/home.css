@@ -91,7 +91,7 @@
     justify-content: end;
     flex-direction: column;
     margin-left: 100px;
-    animation: banner__posicao 0.75s; 
+    animation: banner__posicao 0.75s;
 }
 
 .titulo {
@@ -221,21 +221,24 @@
     }
 
     .container .text {
-        font-size: 27px;
+        font-size: 20px;
         color: #fff;
     }
 
     .banner__animacao {
-        margin-left: 5%;
         margin-top: 10%;
     }
 
     .container .text.first-text {
-        font-size: 27px;
+        font-size: 20px;
         color: #fff;
     }
 
     .text.sec-text:before{
         background-color:  #c4d6e2;
+    }
+
+    .container {
+        margin-left: 52px;
     }
 }
