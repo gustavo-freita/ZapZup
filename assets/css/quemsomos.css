@@ -97,12 +97,17 @@
         margin-bottom: 5%;
     }
 
+    .quemsomos__posicao {
+        display: contents;
+    }
+
     .quemsomos__titulo {
         text-align: center;
     }
 
     .quemsomos__hover {
-        margin-left: 20px;
+        margin-left: 13%;
+        margin-top: 6%;
     }
 
     .descricao {

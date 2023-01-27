@@ -154,15 +154,8 @@
 
 @media screen and (min-width: 400px) {
     .contato__formulario {
-        width: 390px;
+        display: contents;
     }
-
-    .contato__fundo {
-        width: 330%;
-        margin-left: -13px;
-        margin-right: 17px;
-    }
-
     .mensagem__caixa {
         width: 100%;
     }

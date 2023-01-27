@@ -169,6 +169,16 @@
 		margin-left: 50%;
 	}
 
+	.wrapper .facebook {
+		background-color: #1877F2;
+	}
 
+	.wrapper .instagram  {
+		background-color: #E4405F;
+	}
+
+	.wrapper .whatsapp {
+		background-color: #13e247;
+	}
 
 }
