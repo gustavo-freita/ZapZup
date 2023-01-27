@@ -206,31 +206,37 @@
     }
 
     .banner__posicao {
-        padding-bottom: 28px;
-        height: 18rem;
+        display: contents;
     }
 
     .titulo {
+        margin-left: 58%;
+        margin-bottom: auto;
         color: #fff;
     }
 
     .banner__conteudo {
         font-size: 27px;
         color: #fff;
-        margin-top: 84px;
+        margin-top: 22px;
+        margin-left: 100%;
+        margin-bottom: auto;
+    }
+
+    .titulo {
+        margin-left: 59%;
     }
 
     .container .text {
-        font-size: 20px;
         color: #fff;
     }
 
     .banner__animacao {
-        margin-top: 10%;
+        margin-top: 4%;
+        margin-bottom: auto;
     }
 
     .container .text.first-text {
-        font-size: 20px;
         color: #fff;
     }
 
