@@ -72,7 +72,7 @@ li {
     transition: all 0.3s ease-in-out;
 }
 
-@media (max-width:400px) {
+@media (max-width:768px) {
     .logo img {
         height: 5rem;
         margin-left: 0;
@@ -81,15 +81,15 @@ li {
         display: block;
     }
 
-    .hamburguer.active .bar:nth-child(2) {
+    .hamburguer.active .barr:nth-child(2) {
         opacity: 0;
     }
 
-    .hamburguer.active .bar:nth-child(1) {
+    .hamburguer.active .barr:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
     }
 
-    .hamburguer.active .bar:nth-child(3) {
+    .hamburguer.active .barr:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
 
