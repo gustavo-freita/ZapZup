@@ -129,3 +129,46 @@
 .meucontato__icone {
 	color: #000;
 }
+
+
+
+@media (max-width:400px) {
+	.rodape {
+		display: flex;
+	}
+
+	.rodape__conteudo {
+		flex-direction: column;
+	}
+
+	.mascote__estilo {
+		display: none;
+	}
+
+	.rodape__imagem {
+		margin-left: 50%;
+		width: 66%;
+	}
+
+	.wrapper {
+		margin-left: 29%;
+	}
+
+	.rodape__final {
+		flex-direction: column;
+	}
+
+	.copyright {
+		font-size: 16px;
+		margin-left: 50%;
+		width: 55%;
+	}
+
+	.meucontato {
+		font-size: 10px;
+		margin-left: 50%;
+	}
+
+
+
+}
