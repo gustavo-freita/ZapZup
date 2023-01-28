@@ -76,7 +76,7 @@
     }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:480px) {
     .quem__somos {
         display: flex;
         flex-wrap: wrap;
@@ -108,7 +108,7 @@
     }
 
     .quemsomos__hover {
-        margin-left: 30%;
+        margin-left: 26%;
         margin-top: 6%;
     }
 

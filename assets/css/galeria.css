@@ -79,7 +79,7 @@
 
 @media (max-width:768px) {
     .galeria__imagem .popup__image img {
-        width: 95%;
+        width: 90%;
     }
 }
 

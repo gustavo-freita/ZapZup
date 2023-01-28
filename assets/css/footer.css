@@ -130,7 +130,7 @@
 	color: #000;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:480px)  {
 	.rodape {
 		display: flex;
 	}

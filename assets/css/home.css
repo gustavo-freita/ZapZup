@@ -184,7 +184,7 @@
     }
 }
 
-@media (max-width:400px) {
+@media screen and (max-width:480px)  {
     .fundo__banner {
         display: flex;
         align-items: center;
@@ -210,7 +210,7 @@
     }
 
     .titulo {
-        margin-left: 58%;
+        margin-left: 67%;
         margin-bottom: auto;
         color: #fff;
     }
@@ -219,16 +219,13 @@
         font-size: 27px;
         color: #fff;
         margin-top: 22px;
-        margin-left: 100%;
+        margin-left: 110%;
         margin-bottom: auto;
-    }
-
-    .titulo {
-        margin-left: 59%;
     }
 
     .container .text {
         color: #fff;
+        font-size: 27px;
     }
 
     .banner__animacao {
@@ -238,6 +235,7 @@
 
     .container .text.first-text {
         color: #fff;
+        font-size: 27px;
     }
 
     .text.sec-text:before{
