@@ -24,17 +24,6 @@
     margin-left: 10%;
 }
 
-.quemsomos__hover {
-    transition: 1s all;
-}
-
-.quemsomos__hover:hover {
-    transform: scale(1.1);
-	box-shadow: 5px 5px 5px 0 #000;
-    border-radius: 15px;
-
-}
-
 .quemsomos__icone {
     font-size: 30px;
     color: #B29D76;
@@ -74,7 +63,20 @@
     fill: #12567D;
 }
 
-@media (max-width:400px) {
+@media screen and (min-width: 1200px){
+    .quemsomos__hover {
+        transition: 1s all;
+    }
+    
+    .quemsomos__hover:hover {
+        transform: scale(1.1);
+        box-shadow: 5px 5px 5px 0 #000;
+        border-radius: 15px;
+    
+    }
+}
+
+@media screen and (max-width:400px) {
     .quem__somos {
         display: flex;
         flex-wrap: wrap;
@@ -106,7 +108,7 @@
     }
 
     .quemsomos__hover {
-        margin-left: 13%;
+        margin-left: 30%;
         margin-top: 6%;
     }
 

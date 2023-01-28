@@ -130,9 +130,7 @@
 	color: #000;
 }
 
-
-
-@media  (max-width:400px) {
+@media screen and (max-width:400px) {
 	.rodape {
 		display: flex;
 	}
@@ -168,6 +166,10 @@
 		font-size: 10px;
 		margin-left: 50%;
 	}
+
+	.link__contato {
+		color:#ffffff;
+	  }
 
 	.wrapper .facebook {
 		background-color: #1877F2;

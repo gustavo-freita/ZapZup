@@ -13,20 +13,13 @@
 
 .contato__formulario {
     padding: 16px;
-    width: 320px;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.contato__fundo {
-    padding: 3em;
-    max-width: 500px;
-    border-radius: .3125em;
-    background-color: #80C4FD;
-    box-shadow: 5px 5px 20px -5px #000;
-}
+
 .contato__label {
     display: block;
     margin-bottom: 24px;
@@ -152,10 +145,17 @@
     fill: #12567D;
 }
 
-@media screen and (min-width: 400px) {
-    .contato__formulario {
-        display: contents;
+@media screen and (min-width: 1200px) {
+    .contato__fundo {
+        padding: 3em;
+        max-width: 500px;
+        border-radius: .3125em;
+        background-color: #80C4FD;
+        box-shadow: 5px 5px 20px -5px #000;
     }
+}
+@media screen and (min-width: 400px) {
+    
     .mensagem__caixa {
         width: 100%;
     }
