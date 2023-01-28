@@ -230,7 +230,7 @@
 
     .banner__animacao {
         margin-top: 4%;
-        margin-bottom: auto;
+        margin-bottom: 38px;
     }
 
     .container .text.first-text {
@@ -243,6 +243,6 @@
     }
 
     .container {
-        margin-left: 52px;
+        margin-left: 12%;
     }
 }
