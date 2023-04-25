@@ -133,6 +133,16 @@
 @media screen and (max-width:480px)  {
 	.rodape {
 		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+	}
+
+	.rodape__posicao {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
 	}
 
 	.rodape__conteudo {
@@ -143,28 +153,23 @@
 		display: none;
 	}
 
-	.rodape__imagem {
-		margin-left: 46%;
-		width: 66%;
-	}
-
-	.wrapper {
-		margin-left: 29%;
-	}
-
 	.rodape__final {
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		flex-direction: column;
+		width: 100%;
 	}
 
 	.copyright {
 		font-size: 16px;
-		margin-left: 50%;
 		width: 55%;
+		margin: 0;
 	}
 
 	.meucontato {
 		font-size: 10px;
-		margin-left: 50%;
+		margin: 0;
 	}
 
 	.link__contato {

@@ -145,7 +145,7 @@
     fill: #12567D;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 480px) {
     .contato__fundo {
         padding: 3em;
         max-width: 500px;
