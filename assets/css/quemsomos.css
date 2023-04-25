@@ -87,16 +87,16 @@
     }
 
     .conteudo {
+        display: flex;
+        justify-content: center;
         align-items: center;
         flex-direction: column;
+        width: 100%;
     }
 
     .mascote {
-        height: 20em;
         width: 20em;
-        margin-left: 10%;
         margin-top: 5%;
-        margin-bottom: 5%;
     }
 
     .quemsomos__posicao {
@@ -108,7 +108,6 @@
     }
 
     .quemsomos__hover {
-        margin-left: 26%;
         margin-top: 6%;
     }
 
