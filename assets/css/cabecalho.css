@@ -134,6 +134,7 @@ header {
     opacity: 1;
   }
 }
+
 @keyframes cabecalho {
   0% {
     transform: translateX(100px);
