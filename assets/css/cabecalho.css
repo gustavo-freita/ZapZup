@@ -25,6 +25,8 @@ header {
 .logo img {
     width: 8rem;
     margin-left: 200px;
+    opacity: 0;
+    animation: logo 5s ease forwards;
 }
 
 .nav-menu {
@@ -32,6 +34,8 @@ header {
     align-items: center;
     gap: 60px;
     margin-right: 150px;
+    opacity: 0;
+    animation: cabecalho 5s ease forwards;
 }
 
 .menu__link {
@@ -117,4 +121,26 @@ header {
     .nav-menu.active {
         left: 0;
     }
+}
+
+
+@keyframes logo {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes cabecalho {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
